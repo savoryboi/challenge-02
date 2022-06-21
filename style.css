@@ -35,11 +35,8 @@ body {
     text-decoration: none;
 }
 
-section.container {
-    margin-top: 2.5%;
-}
 /* main section flexbox */
-.intro-container {
+.main-container {
     display: flex;
     flex-direction: column;
     margin: 10px;
@@ -56,6 +53,7 @@ section.container {
 img.flex-item {
     width: 60%;
     height: auto;
+    max-width: 700px;
     border: solid 2px #F20089 ;
     background-color: #2F1825;
 }
@@ -68,4 +66,5 @@ img.flex-item {
 
  .scroll-section {
     width: 85%;
+    max-width: 1200px;
 }
