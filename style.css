@@ -9,6 +9,9 @@
 }
 /* GLOBAL SELECTORS */
 
+.rcorner {
+    border-radius: 40px 75px 40px;
+}
 
 /* CUSTOM STYLING */
 body {
@@ -17,17 +20,52 @@ body {
 
 /* use flexbox to create navbar */
 /* space-between to push nav to right side of flexbox container */
-.container {
+.nav-container {
     display: flex;
     justify-content: space-between;
     padding: 15px;
     align-items: center;
-    border: solid 2px #F20089;
     background-color: #2F1825;
+
 }
 
 /* remove underline on links */
-.container a {
+.nav-container a {
     margin: 10px;
     text-decoration: none;
+}
+
+section.container {
+    margin-top: 2.5%;
+}
+/* main section flexbox */
+.intro-container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    align-items: center;
+}
+
+/* space between flexbox items and centering those items */
+.flex-item {
+    padding: 10px;
+    justify-content: center;
+    margin-top: 2%;
+}
+ /* responsive image sizing */
+img.flex-item {
+    width: 60%;
+    height: auto;
+    border: solid 2px #F20089 ;
+    background-color: #2F1825;
+}
+
+/* stying section titles */
+.flex-item h2 {
+    color: #F20089;
+    font-style: italic;
+}
+
+ .scroll-section {
+    width: 85%;
 }
