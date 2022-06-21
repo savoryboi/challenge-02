@@ -1,0 +1,33 @@
+/* RESETS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: white;
+}
+/* GLOBAL SELECTORS */
+
+
+/* CUSTOM STYLING */
+body {
+    background-color: black;
+}
+
+/* use flexbox to create navbar */
+/* space-between to push nav to right side of flexbox container */
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    border: solid 2px #F20089;
+    background-color: #2F1825;
+}
+
+/* remove underline on links */
+.container a {
+    margin: 10px;
+    text-decoration: none;
+}
