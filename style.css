@@ -145,10 +145,26 @@ img.flex-item {
     padding: 15px;
     align-self: center;
     height: auto;
+    position: relative;
 }
 
 .gallery-img img#sather {
     max-width: 600px;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgb(0, 0, 0, 0.7);
+    color: #f09ecc;
+    transition: 1s ease;
+    opacity: 0;
+    padding: 30px;
+}
+
+.gallery-img:hover .overlay {
+    opacity: 1;
 }
 
 /* this allows the transform below to transition back on mouse leave */
