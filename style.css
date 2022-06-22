@@ -14,8 +14,14 @@
     border: solid 2px #F20089;
 }
 
+/*  */
+.opp-corner {
+    border-radius: 8px 40px;
+    border: solid 2px #F20089;
+}
+
 .shadow {
-    box-shadow: 5px 7px 4px yellowgreen;
+    box-shadow: 5px 7px 8px yellowgreen;
 }
 
 /* CUSTOM STYLING */
