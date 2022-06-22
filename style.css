@@ -135,6 +135,9 @@ img.flex-item {
     margin: 10px;
 }
 
+.contact-info a {
+    text-decoration: none;
+}
 .gallery {
     display: flex;
     flex-wrap: wrap;
