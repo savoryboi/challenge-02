@@ -14,7 +14,7 @@
     border: solid 2px #F20089;
 }
 
-/*  */
+/* inverse of .rcorner for styling */
 .opp-corner {
     border-radius: 8px 40px;
     border: solid 2px #F20089;
@@ -48,8 +48,8 @@ body {
     position: relative;
 }
 
+/* Create underline on nav links on hover */
 .nav-container nav a:hover:after {
-    /* text-decoration: #F20089 underline; */
     content: '';
     background: yellowgreen;
     position: absolute;
@@ -90,6 +90,8 @@ img.flex-item {
 .flex-item h2 {
     color: #F20089;
     font-style: italic;
+    font-size: 40px;
+    padding-bottom: 10px;
 }
 
  .scroll-section {
@@ -139,6 +141,7 @@ footer {
     justify-self: center;
     background-color: #F20089;
     text-align: center;
+    opacity: 90%;
 }
 
 /* MEDIA QUERIES FOR MOBILE OPTIMIZATION */
