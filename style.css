@@ -152,6 +152,7 @@ img.flex-item {
     max-width: 600px;
 }
 
+/* create overlay for the gallery images */
 .overlay {
     position: absolute;
     bottom: 0;
@@ -161,6 +162,9 @@ img.flex-item {
     transition: 1s ease;
     opacity: 0;
     padding: 30px;
+    text-align: center;
+    align-self: center;
+    margin: 0;
 }
 
 .gallery-img:hover .overlay {
