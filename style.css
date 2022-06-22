@@ -21,14 +21,21 @@
 }
 
 .shadow {
-    box-shadow: 5px 7px 8px yellowgreen;
+    box-shadow: 5px 7px 23px yellowgreen;
     transition: 1s;
 }
 
+.shadow2 {
+    transition: 1.4s;
+}
+
 .shadow:hover {
-    box-shadow: 5px 7px 23px yellowgreen;
+    box-shadow: 5px 7px 8px yellowgreen;
     transition: .6s;
-    
+}
+
+.shadow2:hover {
+    box-shadow: 15px 20px 33px #F20089 ;
 }
 
 /* CUSTOM STYLING */
@@ -56,14 +63,19 @@ body {
 }
 
 /* Create underline on nav links on hover */
-.nav-container nav a:hover:after {
+.nav-container nav a:after {
     content: '';
     background: yellowgreen;
     position: absolute;
     bottom: -5px;
-    left: 0;
-    width: 100%;
+    right: 0;
+    width: 0%;
     height: 2px;
+    transition: width .4s;
+}
+
+.nav-container nav a:hover:after {
+    width: 100%;
 }
 
 /* main section flexbox */
