@@ -104,8 +104,14 @@ img.flex-item {
 }
 
 .scale:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: 1s;
+}
+
+footer {
+    justify-self: center;
+    background-color: #F20089;
+    text-align: center;
 }
 
 /* MEDIA QUERIES FOR MOBILE OPTIMIZATION */
