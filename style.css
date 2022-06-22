@@ -10,7 +10,8 @@
 /* GLOBAL SELECTORS */
 
 .rcorner {
-    border-radius: 40px 75px 40px;
+    border-radius: 40px 7px 40px;
+    border: solid 2px #F20089 ;
 }
 
 /* CUSTOM STYLING */
@@ -43,6 +44,12 @@ body {
     align-items: center;
 }
 
+.main-container h1 {
+    margin: 3%;
+    padding: 20px 40px;
+    font-size: 35px;
+}
+
 /* space between flexbox items and centering those items */
 .flex-item {
     padding: 10px;
@@ -54,8 +61,6 @@ img.flex-item {
     width: 60%;
     height: auto;
     max-width: 700px;
-    border: solid 2px #F20089 ;
-    background-color: #2F1825;
 }
 
 /* stying section titles */
@@ -67,4 +72,50 @@ img.flex-item {
  .scroll-section {
     width: 85%;
     max-width: 1200px;
+}
+
+/* styling contact options */
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-info h3 {
+    padding: 25px 40px;
+    margin: 10px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-img {
+    padding: 15px;
+    align-self: center;
+    height: auto;
+}
+
+.gallery-img img#sather {
+    max-width: 600px;
+}
+
+.scale:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+/* MEDIA QUERIES FOR MOBILE OPTIMIZATION */
+@media (max-width: 600px) {
+    .nav-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gallery-img img#sather {
+        max-width: 375px;
+    }
+
 }

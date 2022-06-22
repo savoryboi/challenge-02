@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Portfoio: Andy Bjerk</title>
+    <title>Portfolio: Andy Bjerk</title>
 </head>
+
 <body>
     <header class="nav-container">
         <h2>Andy Bjerk's Portfolio</h2>
@@ -18,26 +19,51 @@
 
         </nav>
     </header>
+
+    <!--vertically scrolling main section containing sections of portfolio -->
+
     <section class="main-container">
+    
         <img class="flex-item rcorner" src="images/andy-headshot.JPG" alt="Andy Headshot">
+
+        <h1 class="rcorner">Andy Bjerk</h1>
+        
         <div id="about" class="flex-item scroll-section">
             <h2>about me</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ullam aspernatur repellendus consequuntur aut quaerat quod, vero quae, quo explicabo vitae? Obcaecati praesentium quidem ipsam unde nisi? Beatae, delectus nemo!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ullam aspernatur repellendus consequuntur aut quaerat quod, vero quae, quo explicabo vitae? Obcaecati praesentium quidem ipsam unde nisi? Beatae, delectus nemo! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum laudantium, perferendis, velit quibusdam officiis aut labore expedita fugiat a architecto placeat iste excepturi quas enim! Facere soluta laborum ad earum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab expedita possimus voluptates nisi. Dolorum veritatis quibusdam earum eaque odio. Sed eligendi dolor voluptates quod at, et ex minima doloremque libero.</p>
         </div>
 
         <div id="contact" class="flex-item scroll-section">
             <h2>get in touch</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ullam aspernatur repellendus consequuntur aut quaerat quod, vero quae, quo explicabo vitae? Obcaecati praesentium quidem ipsam unde nisi? Beatae, delectus nemo!</p>
+            <div class="contact-info">
+                <h3 class="rcorner">phone: (333) 333-3333</h3>
+                <h3 class="rcorner">email: andybjerk@gmail.com</h3>
+                <a href="https://www.linkedin.com/in/andy-bjerk/">
+                    <h3 class="rcorner">LinkedIn</h3>
+                </a>
+            </div>
         </div>
 
         <div id="mywork" class="flex-item scroll-section">
             <h2>my work</h2>
+
+            <!--gallery div is flexbox container for images/links to work-->
+
             <div class="gallery">
-                <img src="#" alt="">
-                <img src="#" alt="">
-                <img src="#" alt="">
+                <a class="gallery-img scale" href="https://savoryboi.github.io/sather-audio/index.html" target="_blank">
+                    <img id="sather" src="images/sather-screenshot.png" alt="sather audio screenshot">
+                </a>
+                <!-- placeholder links for placeholder images -->
+                <a class="gallery-img scale" href="#">
+                    <img src="https://api.lorem.space/image/furniture?w=150&h=150" alt="placeholder2">
+                </a>
+                <a class="gallery-img scale" href="#">
+                    <img src="https://api.lorem.space/image/burger?w=150&h=150" alt="placeholder3">
+                </a>
+                
             </div>
         </div>
+
     </section>
 </body>
 </html>
