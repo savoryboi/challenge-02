@@ -7,6 +7,10 @@
     font-weight: lighter;
     color: white;
 }
+
+img {
+    max-width: 100%;
+}
 /* GLOBAL SELECTORS */
 
 .rcorner {
@@ -35,7 +39,7 @@
 }
 
 .shadow2:hover {
-    box-shadow: 15px 20px 33px #F20089 ;
+    box-shadow: 6px 6px 30px 20px #F20089 ;
 }
 
 /* CUSTOM STYLING */
