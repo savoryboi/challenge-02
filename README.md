@@ -1,5 +1,11 @@
 # challenge-02
 
+# links 
+![github] (http://github.com/savoryboi/)
+![linkedIn] (http://linkedin.com/in/andybjerk)
+![sather-audio] (http://savoryboi.github.io/sather-audio/)
+
+
 # User story
 > AS AN employer
 >I WANT to view a potential employee's deployed portfolio of work samples
@@ -14,4 +20,7 @@
 
 >Must include the developer's name and recent photo or avatar. 
 
+# screenshot of deployed application
+
 ![portfolio screenshot](./images/portfolio-ss.png)
+
