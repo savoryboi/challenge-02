@@ -23,5 +23,7 @@
 # screenshot of deployed application
 
 ![portfolio screenshot](./images/portfolio-ss.png)
+
+# wireframing 
 ![wireframing] (https://wireframe.cc/KATN24)
 
