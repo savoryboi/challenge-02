@@ -191,6 +191,7 @@ footer {
     opacity: 90%;
 }
 
+
 /* MEDIA QUERIES FOR MOBILE OPTIMIZATION */
 @media (max-width: 600px) {
     .nav-container {
