@@ -206,4 +206,8 @@ footer {
     .gallery-img img#sather {
         max-width: 375px;
     }
+
+    section.main-container h1 {
+        font-size: 25px;
+    }
 }
