@@ -155,8 +155,8 @@ img.flex-item {
     position: relative;
 }
 
-.gallery-img img#sather {
-    max-width: 600px;
+.gallery-img img.gal-img {
+    max-width: 500px;
 }
 
 /* create overlay for the gallery images */
