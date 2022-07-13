@@ -155,8 +155,17 @@ img.flex-item {
     position: relative;
 }
 
+.gal-img {
+    border-radius: 25px;
+    transition: .333s;
+}
+
+.gal-img:hover {
+    box-shadow: #f09ecc 4px 4px 20px 3px;
+}
+
 .gallery-img img.gal-img {
-    max-width: 500px;
+    max-width: 400px;
 }
 
 /* create overlay for the gallery images */
