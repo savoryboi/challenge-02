@@ -54,8 +54,8 @@ body {
     justify-content: space-between;
     padding: 15px;
     align-items: center;
-    border: #F20089 solid 2px;
-    border-radius: 9px;
+    border-top: #F20089 solid 2px;
+    border-bottom: #F20089 solid 2px;
 
 }
 
@@ -119,7 +119,7 @@ img.flex-item {
 
  .scroll-section {
     width: 85%;
-    max-width: 1200px;
+    max-width: 1600px;
 }
 
 .scroll-section div {
